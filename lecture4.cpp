@@ -89,40 +89,64 @@ using namespace std;
 //     }
 // }
 
+// int main() {
+//     int n=4;
+//     //char ch='A';
+//     int a=1;
+//     for(int i=1; i<=n; i++) {
+//         for(int k=1; k<=n-i; k++) {
+//             cout<<" ";
+//         }
+//         cout<<"*";
+
+//         if(i>1) {
+//             for(int k=1; k<=a; k++) {
+//                 cout<<" ";
+//             }
+//             a+=2;
+//             cout<<"*";
+//         }
+//         cout<<endl;
+//     }
+//     a-=4;
+//     for(int i=1; i<n; ++i) {
+//         for(int j=1; j<=i; ++j) {
+//             cout<<" ";
+//         }
+//         cout<<"*";
+//         for(int j=0; j<a; j++) {
+//             cout<<" ";
+//         }
+//         a-=2;
+//         if(i!=n-1) {
+//             cout<<"*";
+//         }
+        
+//         cout<<endl;
+
+//     }
+// }
+
+// 17 Jan
+
 int main() {
     int n=4;
-    //char ch='A';
-    int a=1;
-    for(int i=1; i<=n; i++) {
-        for(int k=1; k<=n-i; k++) {
+    for(int i=0; i<n; ++i) {
+        for(int j=0; j<n-i; ++j) {
             cout<<" ";
         }
-        cout<<"*";
 
-        if(i>1) {
-            for(int k=1; k<=a; k++) {
-                cout<<" ";
-            }
-            a+=2;
-            cout<<"*";
+        for(int j=0; j<=i; ++j) {
+            cout<<j+1;
         }
+
+        for(int j=i; j>0; --j) {
+            cout<<j;
+        }
+
         cout<<endl;
-    }
-    a-=4;
-    for(int i=1; i<n; ++i) {
-        for(int j=1; j<=i; ++j) {
-            cout<<" ";
-        }
-        cout<<"*";
-        for(int j=0; j<a; j++) {
-            cout<<" ";
-        }
-        a-=2;
-        if(i!=n-1) {
-            cout<<"*";
-        }
         
-        cout<<endl;
-
     }
+
+    return 0;
 }
