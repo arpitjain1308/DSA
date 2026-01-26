@@ -34,7 +34,7 @@ int main() {
     // int n=4567;
     // cout<<rev(n);
 
-    int n=4;
+    int n=41;
     bool a=isPowOf2(n);
     if(a==1) {
         cout<<"hai, power of 2 desu."<<endl;
