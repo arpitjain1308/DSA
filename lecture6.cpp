@@ -2,30 +2,31 @@
 using namespace std;
 
 int decToBinary(int n) {
-    int ans=0;
-    int pow=1;
+    int bin=0;
+    int power=1;
     while(n>0) {
-        int d = n%2;
-        ans = ans+d*pow;
-        pow=pow*10;
-        n=n/2;
+        int d=n%2;
+        n/=2;
+        bin=bin + d*power;
+        power=power*10;
     }
-    return ans;
+    return bin;
 }
 
 int binaryToDec(int n) {
-    int ans=0;
-    int pow=1;
+    int dec=0;
+    int power=1;
     while(n>0) {
-        int d = n%10;
+        int d=n%10;
         n/=10;
-        ans+=d*pow;
-        pow*=2;
+        dec=dec+ d*power;
+        power=power*2;
     }
-    return ans;
+    return dec;
 }
+
 int main() {
-    int n=1010;
+    int n=11001;
     cout<<binaryToDec(n);
     return 0;
 }
