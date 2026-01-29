@@ -37,10 +37,10 @@ int main() {
     int n=41;
     bool a=isPowOf2(n);
     if(a==1) {
-        cout<<"hai, power of 2 desu."<<endl;
+        cout<<"Yes, it is power of 2."<<endl;
     }
     else {
-        cout<<"iie. power of 2 janai desu."<<endl;
+        cout<<"No, it is not power of 2."<<endl;
     }
 
     return 0;
