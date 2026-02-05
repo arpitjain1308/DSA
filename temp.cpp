@@ -1,28 +1,19 @@
 #include <iostream>
+#include <string>
+#include <algorithm>
 using namespace std;
-class Parent {
-    public:
-    int a;
-    int b;
-    Parent(int A, int B) {
-        a=A;
-        b=B;
-    }
-    void func() {
-        cout<<"I am a Parent"<<endl;
-        cout<<a<<endl<<b;
-    }
-};
-
-class child: Parent {
-    public:
-    void func() {
-        cout<<"I am a Child";
-    }
-};
-
 int main() {
-    Parent obj(10,20);
-    obj.func();
+    string str = "asdfghjkdl";
+    int arr[26] = {0};
+    for(char c : str) {
+        arr[c-'a']++;
+    }
+    for(int i : str) {
+        for(int i=0; i<26; ++i) {
+            
+        }
+    }
+
+
     return 0;
 }
