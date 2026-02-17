@@ -26,7 +26,7 @@ int binaryToDec(int n) {
 }
 
 int main() {
-    int n=11001;
-    cout<<binaryToDec(n);
+    int n=9;
+    cout<<decToBinary(n);
     return 0;
 }

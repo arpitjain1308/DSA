@@ -2,9 +2,9 @@
 #include <cmath>
 using namespace std;
 int main() {
-    int bin = 10;
+    int bin = 3;
+    int x = 7;
     int ans=1;
-    int x=2;
     while(bin>0) {
         if(bin%2==1) {
             ans*=x;
