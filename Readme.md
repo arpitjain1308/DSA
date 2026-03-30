@@ -34,4 +34,4 @@ Day 30 completed.<br>
 Day 31 completed.<br>
 Day 32 completed. Solved leetcode problem 26.<br>
 Day 33 completed. Solved leetcode problem 169 and 229.<br>
-Day 34 completed.<br>
+Day 34 completed. Solved leetcode problem 2404.<br>
