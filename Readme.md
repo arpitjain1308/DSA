@@ -35,3 +35,4 @@ Day 31 completed.<br>
 Day 32 completed. Solved leetcode problem 26.<br>
 Day 33 completed. Solved leetcode problem 169 and 229.<br>
 Day 34 completed. Solved leetcode problem 2404.<br>
+Day 35 completed. Solved leetcode problem 118.<br>
