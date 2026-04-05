@@ -40,3 +40,4 @@ Day 36 completed. Solved leetcode problem 136.<br>
 Day 37 completed. Solved leetcode problem 9.<br>
 Day 38 completed. Solved leetcode problem 53.<br>
 Day 39 completed. Revision.<br>
+Day 40 completed. Solved leetcode problem 50.<br>
