@@ -42,3 +42,4 @@ Day 39 completed. Revision.<br>
 Day 40 completed. Solved leetcode problem 50.<br>
 Day 41 completed. Solved leetcode problem 231.<br>
 Day 42 completed. Revised leetcode problem 50.<br>
+Day 43 completed. Solved leetcode problem 121.<br>
