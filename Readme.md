@@ -46,3 +46,4 @@ Day 43 completed. Solved leetcode problem 121.<br>
 Day 44 completed. Solved leetcode problem 11.<br>
 Day 45 completed. Revised leetcode problem 11, 121, 50, 231, 53, 136.<br>
 Day 46 completed. Revised leetcode problem 238.<br>
+Day 47 completed. Learnt pointers in cpp.<br>
