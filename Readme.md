@@ -48,3 +48,4 @@ Day 45 completed. Revised leetcode problem 11, 121, 50, 231, 53, 136.<br>
 Day 46 completed. Revised leetcode problem 238.<br>
 Day 47 completed. Learnt pointers in cpp.<br>
 Day 48 completed. Learnt binary search.<br>
+Day 49 completed. Solved leetcode problem 33.<br>
