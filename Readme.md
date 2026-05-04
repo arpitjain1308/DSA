@@ -51,4 +51,5 @@ Day 48 completed. Learnt binary search.<br>
 Day 49 completed. Solved leetcode problem 33.<br>
 Day 50 completed. Solved leetcode problem 852.<br>
 Day 51 completed. Solved leetcode problem 540.<br>
-Day 52 completed. olved book allocation problem and painter's problem ii.<br>
+Day 52 completed. Solved book allocation problem and painter's problem ii.<br>
+Day 53 completed. Revised book allocation problem and leetcode problem 11, 852.<br>
